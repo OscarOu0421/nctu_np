@@ -7,8 +7,21 @@ In this project, you are asked to design 3 kinds of servers:<br>
 3. (Bonus) Design the rwg server using the concurrent connection-oriented paradigm with shared memory.<br>
 These three servers must support all functions in project 1.<br>
 ## II.  The structure of the working directory
+```
+  working_dir
+  ├─ bin            # The directory contains executables
+  │   ├─cat
+  │   ├─ls
+  │   ├─noop        # A program that does nothing
+  │   ├─number      # Add a number to each line of input
+  │   ├─removetag   # Remove HTML tags and output to STDOUT
+  │   └─removetag0  # Same as removetag, but outputs error messages to STDERR.
+  ├─ user_pipe
+  |   └─(your user pipe files)
+  └─ test.html
 
-## II.  Scenario of Part One
+```
+## III.  Scenario of Part One
 You can use telnet to connect to your server.<br>
 Assume your server is running on nplinux1 and listening at port 7001.<br>
 ```
@@ -22,7 +35,7 @@ bin test.html
 bash$
 ```
 
-## III. Scenario of Part Two
+## IV. Scenario of Part Two
 ### A.  Introduction of Requirements
 You are asked to design the following features in your server.<br>
 1. Pipe between different users. Broadcast message whenever a user pipe is used.<br>
