@@ -4,9 +4,15 @@
 Here, you are asked to write a Remote Batch System, which consists of a simple HTTP server called http server and a CGI program console.cgi. 
 We will use Boost.Asio library to accomplish this project.
 
-## 
-
-## II. Specification
+## II. The structure of the working directory
+```
+  working_dir
+  ├─ http_server
+  ├─ console.cgi
+  ├─ panel.cgi
+  └─ test_case/
+```
+## III. Specification
 ### A. http server
 1. In this project, the URI of HTTP requests will always be in the form of /${cgi name}.cgi<br>
    (e.g., /panel.cgi, /console.cgi, /printenv.cgi), and we will only test for the HTTP GET method.<br>
@@ -63,3 +69,7 @@ We will use Boost.Asio library to accomplish this project.
 1. This executable file is a Remote Working Ground Server in project2. We will use it for demo. You do NOT need to use your code for this server.
 
 ### F. The Execution Flow
+1. Run your http server by ./http server [port]<br>
+2. Open a browser and visit http://[NP_server_host]:[port]/panel.cgi<br>
+3. Fill the form with the servers to connect to and select the input file, then click Run.<br>
+4. The web page will automatically redirected to http://[NP_server_host]:[port]/console.cgi and your console.cgi should start now.<br>
