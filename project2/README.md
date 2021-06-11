@@ -6,6 +6,7 @@ In this project, you are asked to design 3 kinds of servers:<br>
 2. Design a server of the chat-like systems, called remote working systems (rwg). In this system, users can communicate with other users. You need to use the single-process concurrent paradigm to design this server.<br>
 3. (Bonus) Design the rwg server using the concurrent connection-oriented paradigm with shared memory.<br>
 These three servers must support all functions in project 1.<br>
+## II.  The structure of the working directory
 
 ## II.  Scenario of Part One
 You can use telnet to connect to your server.<br>
