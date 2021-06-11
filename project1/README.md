@@ -1,4 +1,5 @@
-# I. Introduction
+# Network Programming Project 1 - NPShell
+## I. Introduction
 In this project, you are asked to design a shell with special piping mechanisms.
 
 ## II. The structure of the working directory
@@ -18,7 +19,7 @@ a. setenv<br>
 b. printenv<br>
 c. exit<br>
 
-# II. Scenario of using npshell
+## II. Scenario of using npshell
 ```
 bash$ ./npshell   #​ execute your npshell
 % printenv PATH   #​ initial PATH is bin/ and ./
