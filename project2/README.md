@@ -16,8 +16,7 @@ These three servers must support all functions in project 1.<br>
   │   ├─number      # Add a number to each line of input
   │   ├─removetag   # Remove HTML tags and output to STDOUT
   │   └─removetag0  # Same as removetag, but outputs error messages to STDERR.
-  ├─ user_pipe
-  |   └─(your user pipe files)
+  ├─ (your user pipe files)
   └─ test.html
 
 ```
