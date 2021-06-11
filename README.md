@@ -1,4 +1,4 @@
-# 2020 NCTU NP
+# 2020 NCTU Network Programming
 
 ## Project1 
 NPShell
