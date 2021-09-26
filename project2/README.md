@@ -112,6 +112,7 @@ Now, let’s see what happened to the second user:
 bash$ telnet nplinux1.nctu.edu.tw 7001                        # The server port number
 ***************************************
 ** Welcome to the information server **
+***************************************
 *** User ’(no name)’ entered from 140.113.215.63:1013. ***
 % name Roger
 *** User from 140.113.215.63:1013 is named ’Roger’. ***
